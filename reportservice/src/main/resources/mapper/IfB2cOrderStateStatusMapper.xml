@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cjl.mapper.IfB2cOrderStateStatusMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.cjl.entity.IfB2cOrderStateStatus">
+        <id column="SERIALKEY" property="serialkey" />
+        <result column="COMPANYCODE" property="companycode" />
+        <result column="DCCODE" property="dccode" />
+        <result column="DCNAME" property="dcname" />
+        <result column="STORERKEY" property="storerkey" />
+        <result column="STORERNAME" property="storername" />
+        <result column="RPTDT" property="rptdt" />
+        <result column="PACKAGE_CNT" property="packageCnt" />
+        <result column="SKU_CNT" property="skuCnt" />
+        <result column="PCS_CNT" property="pcsCnt" />
+        <result column="CANCEL_CNT" property="cancelCnt" />
+        <result column="PICKING_QTY" property="pickingQty" />
+        <result column="INSPECTION_QTY" property="inspectionQty" />
+        <result column="PACKING_QTY" property="packingQty" />
+        <result column="FINISH_QTY" property="finishQty" />
+        <result column="DEL_YN" property="delYn" />
+        <result column="IF_FLAG" property="ifFlag" />
+        <result column="IF_DATE" property="ifDate" />
+        <result column="IF_MEMO" property="ifMemo" />
+        <result column="CREATE_DATE" property="createDate" />
+        <result column="CREATE_USER" property="createUser" />
+        <result column="IS_PROCESSED" property="isProcessed" />
+        <result column="IS_LAST" property="isLast" />
+        <result column="TRIED" property="tried" />
+        <result column="REPLY_MESSAGE" property="replyMessage" />
+    </resultMap>
+
+</mapper>
